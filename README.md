@@ -1,4 +1,44 @@
 # 🚀 Multi-Agent Finance AI System (LangGraph + MCP + RAG)
+## 项目结构
+multi-agent-finance-ai/
+├── README.md
+├── backend/
+│   ├── main.py
+│   ├── config.py
+│   │
+│   ├── graph/
+│   │   └── agent_graph.py
+│   │
+│   ├── agents/
+│   │   ├── planner.py
+│   │   ├── advisor.py
+│   │   ├── research.py
+│   │
+│   ├── tools/
+│   │   └── fund_tools.py
+│   │
+│   ├── rag/
+│   │   ├── vector_store.py
+│   │   └── retriever.py
+│   │
+│   ├── memory/
+│   │   └── memory_store.py
+│   │
+│   ├── reflection/
+│   │   └── reflector.py
+│   │
+│   ├── eval/
+│   │   └── evaluator.py
+│   │
+│   └── utils/
+│       └── llm.py
+│
+├── frontend/
+│   ├── src/
+│   │   ├── App.jsx
+│   │   └── ChatBox.jsx
+│
+└── requirements.txt
 
 ## 📌 项目简介
 
