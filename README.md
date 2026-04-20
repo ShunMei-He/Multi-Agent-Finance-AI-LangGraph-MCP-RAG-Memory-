@@ -15,6 +15,7 @@
 ---
 
 ## 项目结构
+```
 multi-agent-finance-ai/
 ├── README.md
 ├── backend/
@@ -54,7 +55,7 @@ multi-agent-finance-ai/
 │   │   └── ChatBox.jsx
 │
 └── requirements.txt
-
+```
 ## 🧠 系统架构
 
 用户输入 → Memory → 多轮对话 → Planner → Agent执行 → Tool调用 / RAG → Reflection → 输出结果
