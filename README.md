@@ -1,4 +1,19 @@
 # 🚀 Multi-Agent Finance AI System (LangGraph + MCP + RAG)
+
+## 📌 项目简介
+
+本项目实现了一套基于 **LangGraph 的多Agent AI系统**，模拟智能投顾场景，通过引入：
+
+* 多Agent协同（Planner / Research / Advisor）
+* MCP风格Tool调用
+* RAG知识增强
+* Memory用户长期记忆
+* Reflection自反思机制
+
+构建了一个具备“感知-决策-执行-评估”闭环的AI应用系统。
+
+---
+
 ## 项目结构
 multi-agent-finance-ai/
 ├── README.md
@@ -39,20 +54,6 @@ multi-agent-finance-ai/
 │   │   └── ChatBox.jsx
 │
 └── requirements.txt
-
-## 📌 项目简介
-
-本项目实现了一套基于 **LangGraph 的多Agent AI系统**，模拟智能投顾场景，通过引入：
-
-* 多Agent协同（Planner / Research / Advisor）
-* MCP风格Tool调用
-* RAG知识增强
-* Memory用户长期记忆
-* Reflection自反思机制
-
-构建了一个具备“感知-决策-执行-评估”闭环的AI应用系统。
-
----
 
 ## 🧠 系统架构
 
