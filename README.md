@@ -1,4 +1,4 @@
-# 🚀 Multi-Agent Finance AI System (LangGraph + MCP + RAG)
+# Multi-Agent Finance AI System (LangGraph + MCP + RAG)
 
 ## 📌 项目简介
 
@@ -16,45 +16,35 @@
 
 ## 项目结构
 ```
-multi-agent-finance-ai/
-├── README.md
-├── backend/
-│   ├── main.py
-│   ├── config.py
-│   │
-│   ├── graph/
-│   │   └── agent_graph.py
+ai-investment-assistant/
+│
+├── app/
+│   ├── main.py                 # 入口（FastAPI）
+│   ├── api/
+│   │   └── chat.py            # 对话接口
 │   │
 │   ├── agents/
-│   │   ├── planner.py
-│   │   ├── advisor.py
-│   │   ├── research.py
-│   │
-│   ├── tools/
-│   │   └── fund_tools.py
+│   │   ├── planner.py         # 任务拆解
+│   │   ├── retriever.py       # RAG检索
+│   │   ├── web_search.py      # Web Search
+│   │   ├── generator.py       # 答案生成
+│   │   ├── reflection.py      # 反思优化
+│   │   └── memory.py          # 记忆模块
 │   │
 │   ├── rag/
-│   │   ├── vector_store.py
-│   │   └── retriever.py
+│   │   ├── vector_store.py    # Milvus
+│   │   ├── embedding.py       # BGE embedding
+│   │   └── index.py           # LlamaIndex封装
 │   │
-│   ├── memory/
-│   │   └── memory_store.py
+│   ├── tools/
+│   │   └── serper.py          # Web Search API
 │   │
-│   ├── reflection/
-│   │   └── reflector.py
-│   │
-│   ├── eval/
-│   │   └── evaluator.py
-│   │
-│   └── utils/
-│       └── llm.py
+│   └── config.py
 │
-├── frontend/
-│   ├── src/
-│   │   ├── App.jsx
-│   │   └── ChatBox.jsx
-│
-└── requirements.txt
+├── data/                      # 本地知识库
+├── tests/
+├── requirements.txt
+└── README.md
 ```
 ## 🧠 系统架构
 
