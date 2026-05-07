@@ -1,6 +1,6 @@
 # Multi-Agent Finance AI System (LangGraph + MCP + RAG)
 
-## 📌 项目简介
+## 项目简介
 
 本项目实现了一套基于 **LangGraph 的多Agent AI系统**，模拟智能投顾场景，通过引入：
 
@@ -125,5 +125,3 @@ npm start
 
 ---
 
-## 📬 作者
-hesm
